@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.nexodigital.es/sitemap.xml
+Sitemap: https://nexodigital.onrender.com/sitemap.xml
