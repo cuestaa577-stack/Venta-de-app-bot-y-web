@@ -1,0 +1,15 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Entorno
+.env
+.env.local
+
+# Editores
+.vscode/
+.idea/

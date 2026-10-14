@@ -1,0 +1,14 @@
+{
+  "name": "nexo-digital",
+  "version": "1.0.0",
+  "description": "Nexo Digital — tienda de cursos online, ebooks y estudio de desarrollo web y apps (sitio estático).",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
