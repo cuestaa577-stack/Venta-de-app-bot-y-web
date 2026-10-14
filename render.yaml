@@ -1,4 +1,4 @@
-# Render Blueprint — Nexo Digital (sitio estático)
+# Render Blueprint — Nexo Digital (sitio estático multi-página)
 # Al conectar este repositorio en Render, detectará este archivo automáticamente.
 services:
   - type: web
@@ -6,10 +6,6 @@ services:
     runtime: static
     buildCommand: ""
     staticPublishPath: .
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
     headers:
       - path: /*
         name: X-Frame-Options
@@ -17,3 +13,6 @@ services:
       - path: /*
         name: X-Content-Type-Options
         value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
