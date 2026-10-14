@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nexodigital.onrender.com/sitemap.xml
+Sitemap: https://cuestaa577-stack.github.io/Venta-de-app-bot-y-web/sitemap.xml
